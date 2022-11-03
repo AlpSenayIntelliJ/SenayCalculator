@@ -7,54 +7,56 @@ public class Calculator {
     }
 
     public double multiply() {
-        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
-            return (int) (n1*n2);
+        double answer = n1*n2;
+        if (answer - (int) (answer) == 0) {
+            return (int) (answer);
         } else {
-            return n1*n2;
+            return answer;
         }
     }
 
     public double divide() {
-        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
-            if (n1%n2 == 0) {
-                return (int) (n1/n2);
-            } else {
-                return n1/n2;
-            }
+        double answer = n1/n2;
+        if (answer - (int) (answer) == 0) {
+            return (int) (answer);
         } else {
-            return n1/n2;
+            return answer;
         }
     }
 
     public double add() {
-        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
-            return (int) (n1+n2);
+        double answer = n1+n2;
+        if (answer - (int) (answer) == 0) {
+            return (int) (answer);
         } else {
-            return n1+n2;
+            return answer;
         }
     }
 
     public double subtract() {
-        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
-            return (int) (n1-n2);
+        double answer = n1-n2;
+        if (answer - (int) (answer) == 0) {
+            return (int) (answer);
         } else {
-            return n1-n2;
+            return answer;
         }
     }
 
     public double mod() {
-        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
-            return (int) (n1%n2);
+        double answer = n1%n2;
+        if (answer - (int) (answer) == 0) {
+            return (int) (answer);
         } else {
-            return n1%n2;
+            return answer;
         }
     }
 
     public double expo() {
-        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
-            return (int) (Math.pow(n1, n2));
+        double answer = Math.pow(n1, n2);
+        if (answer - (int) (answer) == 0) {
+            return (int) (answer);
         } else {
-            return Math.pow(n1, n2);
+            return answer;
         }
     }
 }

@@ -7,26 +7,26 @@ public class Main {
 
         double num1 = Double.parseDouble(request.substring(0,request.indexOf(" ")));
         double num2 = Double.parseDouble(request.substring(request.indexOf(" ")+3));
-        String operation = request.substring(request.indexOf(" ")+1, request.indexOf(" "));
+        String operation = request.substring(request.indexOf(" ")+1, request.indexOf(" ")+2);
 
         Calculator calc = new Calculator(num1, num2);
         if (operation.equals("*")) {
-            calc.multiply();
+            System.out.print(calc.multiply());
         }
         else if (operation.equals("/")) {
-            calc.divide();
+            System.out.print(calc.divide());
         }
         else if (operation.equals("+")) {
-            calc.add();
+            System.out.print(calc.add());
         }
         else if (operation.equals("-")) {
-            calc.subtract();
+            System.out.print(calc.subtract());
         }
         else if (operation.equals("%")) {
-            calc.mod();
+            System.out.print(calc.mod());
         }
         else if (operation.equals("^")) {
-            calc.expo();
+            System.out.print(calc.expo());
         } else {
             System.out.print("Enter a valid calculation.");
         }
