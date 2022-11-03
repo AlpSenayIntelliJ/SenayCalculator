@@ -41,4 +41,20 @@ public class Calculator {
             return n1-n2;
         }
     }
+
+    public double mod() {
+        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
+            return (int) (n1%n2);
+        } else {
+            return n1%n2;
+        }
+    }
+
+    public double expo() {
+        if (((int) (n1) == n1) && ((int) (n2) == n2)) {
+            return (int) (Math.pow(n1, n2));
+        } else {
+            return Math.pow(n1, n2);
+        }
+    }
 }
