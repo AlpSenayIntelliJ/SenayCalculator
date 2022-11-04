@@ -7,56 +7,32 @@ public class Calculator {
     }
 
     public double multiply() {
-        double answer = n1*n2;
-        if (answer - (int) (answer) == 0) {
-            return (int) (answer);
-        } else {
-            return answer;
-        }
+        return n1*n2;
+
     }
 
     public double divide() {
-        double answer = n1/n2;
-        if (answer - (int) (answer) == 0) {
-            return (int) (answer);
-        } else {
-            return answer;
-        }
+        return n1/n2;
+
     }
 
     public double add() {
-        double answer = n1+n2;
-        if (answer - (int) (answer) == 0) {
-            return (int) (answer);
-        } else {
-            return answer;
-        }
+        return n1+n2;
+
     }
 
     public double subtract() {
-        double answer = n1-n2;
-        if (answer - (int) (answer) == 0) {
-            return (int) (answer);
-        } else {
-            return answer;
-        }
+        return n1-n2;
+
     }
 
     public double mod() {
-        double answer = n1%n2;
-        if (answer - (int) (answer) == 0) {
-            return (int) (answer);
-        } else {
-            return answer;
-        }
+        return n1%n2;
+
     }
 
     public double expo() {
-        double answer = Math.pow(n1, n2);
-        if (answer - (int) (answer) == 0) {
-            return (int) (answer);
-        } else {
-            return answer;
-        }
+        return Math.pow(n1, n2);
+
     }
 }

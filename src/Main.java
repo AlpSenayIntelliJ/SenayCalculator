@@ -28,7 +28,7 @@ public class Main {
         else if (operation.equals("^")) {
             System.out.print(calc.expo());
         } else {
-            System.out.print("Enter a valid calculation.");
+            System.out.print("Enter a valid operation.");
         }
     }
 }
